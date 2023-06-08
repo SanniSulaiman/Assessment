@@ -1,13 +1,37 @@
-*{
-    background-color: greenyellow;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: aqua;
+  background: green;
+}
 
+body {
+  height: 100vh;
 }
-body{  
-    
-}
-div{
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  height: 80%;
+  flex-wrap: wrap;
 }
-.div image{
-    size: 10rem;
+
+.container .card {
+  height: 15rem;
+  width: 10rem;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+img {
+  width: 750%;
+}
+h1{
+  font-size: 70px;
+  color: black;
+  text-align: center;
+  margin-top: 30px;
 }
